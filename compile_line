@@ -1,0 +1,2 @@
+gfortran -ffree-form -O3 det_n2___.f rndm_mumbers.f fhd.f -llapack -lblas
+

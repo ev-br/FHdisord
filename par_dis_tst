@@ -1,0 +1,26 @@
+3         ! dimension
+4         ! N(1)
+4         ! N(2)
+4         ! N(3)
+0         ! 0 if new configuration, 1 if old one
+0         ! 0 if new statistics,    1 if old one
+0         ! 0 if new rndm() seed; NB: keep =0
+-5.00d0              ! \mu
+0.0                 ! disorder strength
+7.915d0  0.015d0     ! - U, initial for thermalization
+0.3d0               ! \beta
+500       ! number of \tau points for GF tabulation; NB: keep it like this 
+1.d2      ! tolerance level for determinant recalculation; NB: keep it like this
+1.5       ! U*dt_o, where dt is used for seeding new vertices; NB: should be between roughly 0.5 and 5
+1d5         ! number of sweeps for thermalization
+2.d6     ! step for printing
+2.d6      ! step for writing to disk
+1.d0      ! step for measuring, 'cheap' measurements
+50.d0     ! step for measuring, 'expensive' measurements; NB: can vary
+0.5       ! time limit, hrs
+------
+0.1       ! add/drop
+0.4       ! leap_o_add/drop
+------
+4836 2738
+4836 2748
